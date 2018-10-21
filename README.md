@@ -39,9 +39,16 @@ http://localhost:8080/interviewPipeline/stages
 PUT
 http://localhost:8080/interviewPipeline/stages/{stageID}
 
-{                                   {
-	"newPosition" : 1      or            "newName" : "StageX"
-}                                   }
+{
+	"newPosition" : 1
+}
+
+or
+
+{
+    "newName" : "StageX"
+}
+                                 }
 
 DELETE
 http://localhost:8080/interviewPipeline/stages/{stageId}
@@ -65,10 +72,15 @@ http://localhost:8080/interviewPipeline/stages/{stageId}/interviews
 PUT
 http://localhost:8080/interviewPipeline/stages/{stageId}/interviews/{interviewId}
 
-{                                   {
-	"newPosition" : 1      or            "newName" : "InterviewX"
-}                                   }
+{
+	"newPosition" : 1
+}
 
+or
+
+{
+    "newName" : "InterviewX"
+}
 
 DELETE
 http://localhost:8080/interviewPipeline/stages/{stageId}/interviews/{interviewId}
