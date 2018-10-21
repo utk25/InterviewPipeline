@@ -48,7 +48,7 @@ or
 {
     "newName" : "StageX"
 }
-                                 }
+                                 
 
 DELETE
 http://localhost:8080/interviewPipeline/stages/{stageId}
